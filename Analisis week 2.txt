@@ -1,0 +1,10 @@
+Analisis:
+Terdapat 2 program dalam praktikum ini yang pertama digunakan untuk melatih model K-Nearest Neighbors (KNN) agar dapat mengenali warna berdasarkan nilai RGB. Data warna dibaca dari dataset, kemudian dinormalisasi agar lebih seimbang. Setelah itu, model dilatih dan diuji sebelum akhirnya disimpan untuk digunakan dalam aplikasi lain. Akurasi model sangat bergantung pada kualitas dan jumlah data warna yang tersedia.
+Program kedua menggunakan model KNN yang telah dilatih untuk mendeteksi warna secara real-time melalui kamera. Program ini mengambil warna dari titik tengah layar, melakukan normalisasi, lalu memprediksi warna menggunakan model KNN. Hasil warna ditampilkan pada layar, dan program berjalan hingga pengguna menekan tombol 'q' untuk keluar.
+
+  Diskusi:
+1.	Kelebihan:
+•	kesederhanaannya dan kemampuannya untuk mengenali warna secara langsung dari kamera.
+Kekurangan:
+•	ketergantungan pada dataset warna, pengaruh pencahayaan terhadap hasil deteksi.
+2.	Untuk meningkatkan program ini, beberapa pengembangan yang dapat dilakukan adalah menambah dataset warna agar prediksi lebih akurat, menggunakan metode lain seperti SVM atau Deep Learning, serta membuat tampilan GUI yang lebih menarik.
